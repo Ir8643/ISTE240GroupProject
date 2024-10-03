@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(25,26,25);
+    color: rgb(216, 233, 168);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(216, 233, 168);
+}
+
+div {
+    background-color: rgb(30, 81, 30);
+}
+
+nav {
+    background-color: rgb(30, 81, 30);
+}
+
+header {
+    background-image: url('/assets/images/background.webp');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem;
+}
+
+img {
+    width: 15rem;
+    float: left;
+    position: absolute;
+    top: -4rem;
+    left: -3rem;
+}
