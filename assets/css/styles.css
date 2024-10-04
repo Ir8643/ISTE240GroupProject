@@ -1,10 +1,12 @@
+@media (min-width:800px) {
+
 body {
     background-color: rgb(25,26,25);
     color: rgb(216, 233, 168);
 }
 
 a {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
     color: rgb(216, 233, 168);
     display: flex;
@@ -62,4 +64,75 @@ header {
     position: absolute;
     top: -5rem;
     left: -5rem;
+}
+
+}
+
+@media (max-width:799px) {
+    body {
+        background-color: rgb(25,26,25);
+        color: rgb(216, 233, 168);
+    }
+    
+    a {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: rgb(216, 233, 168);
+        display: flex;
+        padding: .5rem
+    }
+    
+    .background {
+        background-color: rgb(30, 81, 30);
+    }
+    
+    nav {
+        background-color: rgb(30, 81, 30);
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: column;
+        background-color: none;
+        padding: 1rem;
+        justify-content: center;
+    }
+    
+    .item {
+        margin: 1rem;
+        background-color: none;
+        text-align: center;
+    }
+    
+    p {
+        font-size: 1.2rem;
+    }
+    
+    h2 {
+        border-bottom: solid .1rem rgb(216, 233, 168);
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    header {
+        background-image: url('/assets/images/background.webp');
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 3rem;
+    }
+    .logo {
+        width: 20rem;
+        float: left;
+        position: absolute;
+        top: -5rem;
+        left: -5rem;
+    }
+
 }
