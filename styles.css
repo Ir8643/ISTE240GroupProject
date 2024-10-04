@@ -52,7 +52,7 @@ h1 {
 }
 
 header {
-    background-image: url('/assets/images/background.webp');
+    background-image: url('background.webp');
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -121,7 +121,7 @@ header {
     }
     
     header {
-        background-image: url('/assets/images/background.webp');
+        background-image: url('background.webp');
         display: flex;
         flex-direction: row;
         justify-content: center;
